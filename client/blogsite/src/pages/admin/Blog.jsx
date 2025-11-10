@@ -94,7 +94,7 @@ export default function Blog() {
                 </div>
                 <img
                   className=" w-50 h-full object-fit-cover rounded-2xl"
-                  src={`http://localhost:7000/images/${b.blogImage}`}
+                  src={`https://blog-website-88zn.onrender.com/images/${b.blogImage}`}
                 />
               </div>
               <div className="flex justify-between mt-2">

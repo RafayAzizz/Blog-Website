@@ -48,7 +48,7 @@ function MainSection() {
               >
                 <div className="w-full sm:w-[220px] md:w-[260px] h-[200px] sm:h-[260px] rounded-2xl flex-shrink-0 overflow-hidden mb-4 sm:mb-0">
                   <img
-                    src={`http://localhost:7000/images/${b.blogImage}`}
+                    src={`https://blog-website-88zn.onrender.com/images/${b.blogImage}`}
                     alt="Image"
                     className="w-full h-full object-cover rounded-2xl"
                   />

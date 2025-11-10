@@ -45,7 +45,7 @@ export default function SingleBlogPage() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src={`http://localhost:7000/images/${filteredBlog.blogImage}`}
+              src={`https://blog-website-88zn.onrender.com/images/${filteredBlog.blogImage}`}
               alt={filteredBlog.title}
               className="w-full max-w-md h-auto md:h-[400px] object-contain rounded-xl shadow-md bg-gray-100 p-2 hover:scale-105 transition-transform duration-300"
             />
@@ -95,7 +95,7 @@ export default function SingleBlogPage() {
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 cursor-pointer overflow-hidden flex flex-col"
               >
                 <img
-                  src={`http://localhost:7000/images/${b.blogImage}`}
+                  src={`https://blog-website-88zn.onrender.com/images/${b.blogImage}`}
                   alt={b.title}
                   className="w-full h-52 object-cover hover:scale-105 transition-transform duration-300"
                 />

@@ -205,7 +205,7 @@ export default function AddBlog() {
             // Existing image from backend
             <div className="mt-2">
               <img
-                src={`http://localhost:7000/images/${form.blogImage}`}
+                src={`https://blog-website-88zn.onrender.com/images/${form.blogImage}`}
                 alt="Existing blog"
                 className="w-32 h-32 object-cover rounded"
               />

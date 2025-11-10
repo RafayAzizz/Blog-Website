@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = "http://localhost:7000";
+axios.defaults.baseURL = "https://blog-website-88zn.onrender.com";
 
 export const UserDataContext = createContext();
 
@@ -119,7 +119,7 @@ export const UserDataProvider = ({ children }) => {
     try {
       const role = localStorage.getItem("role")?.toLowerCase() || "admin";
       const res = await axios.get(
-        `http://localhost:7000/${role}/user/checkauth`,
+        `https://blog-website-88zn.onrender.com/${role}/user/checkauth`,
         {
           withCredentials: true,
         }

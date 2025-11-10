@@ -55,7 +55,7 @@ export default function SubCategoryPage() {
           >
             {/* Blog Image */}
             <img
-              src={`http://localhost:7000/images/${b.blogImage}`}
+              src={`https://blog-website-88zn.onrender.com/images/${b.blogImage}`}
               alt={b.title}
               className="w-full h-48 object-cover"
             />

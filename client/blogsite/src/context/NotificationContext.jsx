@@ -45,7 +45,7 @@ export const NotificationProvider = ({ children }) => {
 
   const getBaseURL = () => {
     const role = localStorage.getItem("role")?.toLowerCase() || "admin";
-    return `https://blog-backend.onrender.com/${role}/notification`;
+    return `https://blog-website-88zn.onrender.com/${role}/notification`;
   };
 
   // Fetch from backend on load
